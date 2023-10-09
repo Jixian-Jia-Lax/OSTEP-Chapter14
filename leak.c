@@ -1,7 +1,9 @@
 #include <stdlib.h>
 
 int main(){
-    int* ptr = NULL;
-    int a = *ptr;
+    
+    int *ptr = malloc(4);
     return 0;
+
+
 }
